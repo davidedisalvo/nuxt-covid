@@ -2,6 +2,9 @@
 
 ## Build Setup
 
+Main commit is in master branch
+Please clone npm install in that branch
+
 ```bash
 # install dependencies
 $ yarn install
