@@ -3,7 +3,8 @@
 ## Build Setup
 
 Main commit is in master branch
-Please clone npm install in that branch
+
+Please clone and npm install in that branch
 
 ```bash
 # install dependencies
