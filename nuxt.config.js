@@ -38,7 +38,7 @@ export default {
   ** https://nuxtjs.org/guide/plugins
   */
   plugins: [
-    { src: '~plugins/vue-chart.js', ssr: false },
+    { src: '~plugins/vue-chart.js' },
 
 
   ],
