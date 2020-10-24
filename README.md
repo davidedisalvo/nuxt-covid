@@ -2,11 +2,15 @@
 
 ## Build Setup
 
-Main commit is in master branch
+Main commit is in master branch <br />
 
-Please clone and npm install in that branch
+Please clone and yarn install in that branch <br />
+
+DEMO: https://nuxt-covid.netlify.app/
 
 ```bash
+#Clone master branch
+
 # install dependencies
 $ yarn install
 

@@ -11,6 +11,9 @@
                     </p>
                 </div>
             </div>
+            <div class="row">
+                <img :src="require('../assets/images/arrow.svg')" alt="arrow">
+            </div>
         </div>
     </section>
 </template>
@@ -22,12 +25,19 @@
     background-position: center;
     display: flex;
     align-items: center;
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 420px) {
         background-position: 70%;
     }
     .inner {
-        padding: 250px 0;
+        padding: 210px 0;
         color: white;
+        @media only screen and (max-width: 420px) {
+            padding: 38vh 0;
+        }
+    }
+    .row:nth-child(2) {
+        justify-content: center;
+        margin-bottom: 20px;
     }
 }
 </style>
