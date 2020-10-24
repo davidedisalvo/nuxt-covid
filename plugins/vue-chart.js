@@ -1,7 +1,7 @@
 import Vue from "vue"
 import { Line } from "vue-chartjs"
 
-Vue.component("chart-line", {
+Vue.component("Chart-line", {
   extends: Line,
   props: ["data", "options"],
   mounted() {

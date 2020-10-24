@@ -4,7 +4,7 @@
           <div class="row">
             <h4>Cases per day (last 7 days)</h4>
               <div class="chart-conatiner" style="width: 100%">
-                <chart-line v-if="data" :data="data" :options="options"/>
+                <Chart-line v-if="data" :data="data" :options="options"/>
               </div>
           </div>
           <div class="row">
